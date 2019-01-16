@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MenuItem Component when props are valid should render snapshot of the component 1`] = `
+<div
+  className="menu_item"
+>
+  <div
+    className="row"
+  >
+    <div
+      className="col-sm-10 menu_item--title"
+    >
+      <span>
+        Item title
+      </span>
+    </div>
+    <div
+      className="col-sm-1 menu_item--price"
+    >
+      <span>
+        £
+        5.99
+      </span>
+    </div>
+    <div
+      className="col-sm-1"
+    >
+      <button
+        className="btn btn-success qa-menu-item-button"
+        id="I1"
+        onClick={[MockFunction]}
+        type="button"
+      >
+        +
+      </button>
+    </div>
+  </div>
+  <div
+    className="row"
+  >
+    <div
+      className="col-sm-12 menu_item--description"
+    >
+      <span>
+        Item description
+      </span>
+    </div>
+  </div>
+</div>
+`;

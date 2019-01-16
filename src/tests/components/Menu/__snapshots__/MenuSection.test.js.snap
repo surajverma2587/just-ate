@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MenuSection Component when props are valid should render snapshot of the component 1`] = `
+<div
+  className="menu_section"
+>
+  <div
+    className="menu_section--header"
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col-sm-11 menu_section--title"
+      >
+        <span>
+          Section title
+        </span>
+      </div>
+      <div
+        className="col-sm-1"
+      >
+        <button
+          className="btn btn-primary"
+          data-target="#S1"
+          data-toggle="collapse"
+          type="button"
+        >
+          v
+        </button>
+      </div>
+    </div>
+    <div
+      className="row"
+    >
+      <div
+        className="col-sm-12 menu_section--description"
+      >
+        <span>
+          Section description
+        </span>
+      </div>
+    </div>
+  </div>
+  <div
+    className="collapse menu_section--body"
+    id="S1"
+  >
+    <MenuItem
+      description="Description 1"
+      id="I1"
+      key="I1"
+      onClick={[MockFunction]}
+      price={4.99}
+      title="Title 1"
+    />
+    <MenuItem
+      description="Description 2"
+      id="I2"
+      key="I2"
+      onClick={[MockFunction]}
+      price={6.49}
+      title="Title 2"
+    />
+  </div>
+</div>
+`;
