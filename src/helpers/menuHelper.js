@@ -3,6 +3,13 @@ const getSelectedItem = (menuSections = [], id = '') => menuSections.reduce((acc
   return [...acc, ...filteredItem];
 }, []);
 
-const deleteSelectedItem = (selectedItems = [], id) => selectedItems.filter(selectedItem => selectedItem.id !== id)
+function deleteSelectedItem(selectedItems, id) {
+  for (var i = 0; i < selectedItems.length; i++)
+  if(selectedItems[i].id === id) {
+    selectedItems.splice(i, 1)
+    break;
+  }
+  return selectedItems;
+} 
 
 export { getSelectedItem, deleteSelectedItem }
